@@ -1,9 +1,8 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import data from "../yourdata"
 
 
-const ProjHeader = () => {
+const ProjHeader = ({projName, projDes}) => {
   return (
     <div className="section" id="home">
       <div className="container">
@@ -11,15 +10,11 @@ const ProjHeader = () => {
           
           <Fade bottom cascade>
             <div className="heading-wrapper">
-              <hi>Illustrations</hi>
+              <h1>{projName}</h1>
+              <h2>{projDes}</h2>
             </div>
           </Fade>
-          <Fade bottom>
-            <p>{data.headerParagraph}</p>
-          </Fade>
-          <Fade bottom>
-            
-          </Fade>
+      
         </div>
       </div>
     </div>

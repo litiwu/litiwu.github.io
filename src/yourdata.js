@@ -6,11 +6,10 @@ import codeIcon from "./images/code.svg"
 import javaIcon from "./images/java-svgrepo-com.svg"
 import cIcon from "./images/icons8-c++.svg"
 
+
 // Social Icon
 import githubIcon from "./images/github.svg"
 import instagramIcon from "./images/instagram.svg"
-<<<<<<< HEAD
-=======
 
 //importing images 
 import illustrationPic from "./images/illustration_.png"
@@ -18,7 +17,6 @@ import designPic from "./images/design.png"
 import photographyPic from "./images/photography_.png"
 import aboutMe from "./images/about_me.jpg"
 
->>>>>>> parent of 0f8e5a3 (pls fix master)
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -46,53 +44,15 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-<<<<<<< HEAD
-      id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "Project One", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Two", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Three", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Four", //Project Title - Add Your Project Title Here
-=======
       id: 1, 
       title: "ILLUSTRATION", //Project Title - Add Your Project Title Here
->>>>>>> parent of 0f8e5a3 (pls fix master)
       para:
         "A COMPILATION OF MY ILLUSTRATIONS AND INTAGLIO PRINTS", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         illustrationPic,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "/illustration/",
     },
     {
       id: 2, 
@@ -103,7 +63,7 @@ export default {
       imageSrc:
         designPic,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "/design/",
     },
     {
       id: 3, 
@@ -114,7 +74,7 @@ export default {
       imageSrc:
         photographyPic,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "/photography/",
     },
    
   ],
@@ -162,7 +122,7 @@ export default {
       id: 4,
       img: reactIcon,
       para:
-        "Proficient understanding in web developement, including using the react framework.",
+        "Proficient understanding in web developement, including using the React framework.",
     },
     {
       id: 5,

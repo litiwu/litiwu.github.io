@@ -10,7 +10,7 @@ const About = () => {
           <div className="content">
             <Fade bottom cascade>
               <h1>Nice to</h1>
-              <h1>Meet You!</h1>
+              <h1>Meet (W)U</h1>
             </Fade>
             <p>
               {data.aboutParaOne}

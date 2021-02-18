@@ -15,7 +15,7 @@
     font-family: "Open Sans";
     text-align: center;
     background-color: #322522;
-    padding: 5rem;
+    padding: 10rem;
     opacity: 0;
     transition: all 500ms ease-in-out;
     transform: translate(0, 20px);
@@ -31,9 +31,12 @@
     }
 
     .btn {
-      background-color: #322522;
+      font-family: "questa-sans";
+      background-color: #3f3532;
       color: white;
-      padding: 0px;
+      padding: 10px;
+      padding-left: 2em;
+      padding-right: 2em;
       text-decoration: none;
     }
     &:hover {

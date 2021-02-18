@@ -1,4 +1,6 @@
 import React from "react"
+import { Link } from "gatsby"
+
 
 const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
   return (
@@ -18,13 +20,11 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
       >
         <h1 className="header">{heading}</h1>
         <p className="text">{paragraph}</p>
-        <a
-          href={projectLink ? projectLink : "#"}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn"
-        >
-        </a>
+         <Link to={projectLink}
+          className="btn">
+            explore
+          </Link>
+     
       </div>
     </div>
   )
