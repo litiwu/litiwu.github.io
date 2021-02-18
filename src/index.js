@@ -1,1 +1,0 @@
-import './fonts/FontsFree-Net-2-QuestaSansRegular.ttf'
