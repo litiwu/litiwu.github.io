@@ -21,8 +21,7 @@
   }
 
   p {
-    margin-top: 1px;
-    width: 60%;
+    width: 70%;
     text-align: center;
     color: #322522;
     overflow: hidden;
@@ -42,5 +41,8 @@
 }
 
 img {
-  max-width: 70vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
