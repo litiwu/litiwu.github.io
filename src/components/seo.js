@@ -33,11 +33,11 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title="Lisa Wu"
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      titleTemplate={defaultTitle}
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: "Portfolio",
         },
         {
           property: `og:title`,
