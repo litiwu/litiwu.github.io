@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{"2WQK":function(n,t,o){"use strict";o.r(t);o("q1tI");t.default=IllustrationPage}}]);
-//# sourceMappingURL=component---src-pages-illustration-js-80dc860f47bbf82f7f84.js.map
