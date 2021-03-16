@@ -44,8 +44,11 @@
     p {
       color: #322522;
       margin-top: 5em;
+      text-align: left;
+      font-size: 16px;
       @include media(">=phone", "<desktop") {
         text-align: center;
+        font-size: 14px;
         justify-content: center;
       }
     }
