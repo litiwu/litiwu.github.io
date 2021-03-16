@@ -22,6 +22,8 @@ export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
+  title: "Lisa Wu",
+
   //   Header Details ---------------------
   name: "Lisa",
   headerTagline: [
