@@ -27,10 +27,15 @@
     }
 
     h1 {
-      font-size: 6rem;
+      font-size: 4rem;
       color: #322522;
-      margin-right: 5vh;
-      line-height: 1rem;
+      line-height: 2rem;
+      overflow: visible;
+      @include media(">=phone", "<tablet") {
+        text-align: center;
+        line-height: 1rem;
+        font-size: 2rem;
+      }
       @include media(">=tablet", "<desktop") {
         text-align: center;
       }
@@ -39,19 +44,18 @@
     p {
       color: #322522;
       margin-top: 5em;
-      @include media(">=tablet", "<desktop") {
+      @include media(">=phone", "<desktop") {
         text-align: center;
+        justify-content: center;
       }
     }
   }
   .image-wrapper {
-    size: 20%;
-    width: 50%;
-    margin-left: 10vh;
+    width: 70%;
     height: auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
     overflow: hidden;
     @include media(">=phone", "<lgphone") {
       width: 100%;

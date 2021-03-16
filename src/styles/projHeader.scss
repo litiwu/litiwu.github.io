@@ -9,20 +9,33 @@
     font-family: "questa-sans";
     font-size: 50px;
     color: #322522;
+    @include media(">=phone", "<lgphone") {
+      text-align: center;
+      font-size: 20px;
+    }
+    @include media(">=lgphone", "<tablet") {
+      text-align: center;
+      font-size: 22px;
+    }
+    @include media(">=tablet", "<desktop") {
+      text-align: center;
+      font-size: 24px;
+    }
   }
 
   h2 {
     font-size: 1rem;
+    padding-bottom: 2rem;
     text-align: center;
     color: #322522;
     @include media(">=phone", "<lgphone") {
-      font-size: 14px;
+      font-size: 12px;
     }
     @include media(">=lgphone", "<tablet") {
-      font-size: 16px;
+      font-size: 14px;
     }
     @include media(">=tablet", "<desktop") {
-      font-size: 16px;
+      font-size: 14px;
     }
   }
 

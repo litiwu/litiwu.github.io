@@ -9,6 +9,18 @@ const PhotographyPage = () => (
             projName="MOMENTS"
             projDes="CAPTURED MEMORIES.">
         </ProjHeader>
+        <img src="../images/abstract.JPG" alt="Abstraction" class="center"></img>
+        <p>Abstraction</p>
+        <img src="../images/IMG_0001.JPG" alt="" class="center"></img>
+      <p></p>
+      <img src="../images/IMG_0040.JPG" alt="" class="center"></img>
+      <p></p>
+      <img src="../images/IMG_0050.JPG" alt="" class="center"></img>
+      <p></p>
+      <img src="../images/IMG_0037.JPG" alt="" class="center"></img>
+      <p></p>
+      <img src="../images/IMG_0044.JPG" alt="" class="center"></img>
+      <p></p>
     </Layout>
   )
   

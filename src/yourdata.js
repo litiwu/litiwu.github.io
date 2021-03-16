@@ -83,14 +83,14 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "I'm Lisa! I am sophomore studying Computer Science at the Univeristy of Texas at Dallas with a passion for illustration and design. Currently based in Taiwan due to the pandemic.",
+    "I'm Lisa! I am a sophomore studying Computer Science at the University of Texas at Dallas with a passion for illustration and design. I am currently based in Taiwan due to the pandemic.",
   aboutParaTwo:
     ["Other than my coding my day away, I also love to design and create illustration in my free time.",
-     " Recently I have been learning lots about the front-end development and this portfolio is my little project while I learn:)"
+     " Recently, I have been learning about front-end development; this portfolio is my little learning project:)"
      ]
     ,
   aboutParaThree:
-    "In the future, I hope to become an full-stack developer with a focus on UI/UX design!",
+    "In the future, I hope to become a full-stack developer with a focus on UI/UX design!",
   aboutImage:
     aboutMe,
   //   End About Section ---------------------
