@@ -19,7 +19,7 @@ const IllustrationPage = () => (
       <img src="../images/iris_window.JPG" alt="Iris" className="center"></img>
       <img src="../images/drivers_licence.JPG" alt="Lisa" className="center"></img>
       <p>Reflection</p>
-      <img src="../images/noodle_shop.JPG" alt="The Noodle Shop" className="center"></img>
+      <img src="../images/noodle_shop.jpg" alt="The Noodle Shop" className="center"></img>
       <p>The Noodle Shop</p>
       <img src="../images/growing_up.JPG" alt="Growing Up" className="center"></img>
       <p>Growing Up</p>

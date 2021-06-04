@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 // Components
 import ProjHeader from "../components/ProjHeader"
 
+
 const DesignPage = () => (
     <Layout>
      <ProjHeader 
