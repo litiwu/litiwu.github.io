@@ -77,7 +77,7 @@ export default {
   aboutParaOne:
     "I'm Lisa! I am a Junior studying Computer Science at the University of Texas at Dallas with a passion for illustration and design. I am currently based in Dallas, Texas",
   aboutParaTwo: [
-    "Other than my coding my day away, I also love to design and create illustration in my free time.",
+    "Other than my coding my day away, I also love to design and create illustrations in my free time.",
     " Recently, I have been learning about front-end development; this portfolio is my little learning project:)",
   ],
   aboutParaThree:
@@ -93,7 +93,8 @@ export default {
     {
       id: 1,
       img: javaIcon,
-      para: "Three years of experience coding in Java 8. Proficient in Object-Oriented Programming.",
+      para:
+        "Three years of experience coding in Java 8. Proficient in Object-Oriented Programming.",
     },
     {
       id: 2,
@@ -108,7 +109,8 @@ export default {
     {
       id: 4,
       img: reactIcon,
-      para: "Proficient understanding in web developement, including using the React framework.",
+      para:
+        "Proficient understanding in web developement, including using the React framework.",
     },
     {
       id: 5,
