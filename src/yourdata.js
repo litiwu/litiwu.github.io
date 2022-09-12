@@ -1,22 +1,20 @@
 // Skills Icons
-import reactIcon from "./images/react.svg"
-import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
-import javaIcon from "./images/java-svgrepo-com.svg"
-import cIcon from "./images/icons8-c++.svg"
-
+import reactIcon from "./images/react.svg";
+import jsIcon from "./images/javascript.svg";
+import designIcon from "./images/design.svg";
+import codeIcon from "./images/code.svg";
+import javaIcon from "./images/java-svgrepo-com.svg";
+import cIcon from "./images/icons8-c++.svg";
 
 // Social Icon
-import githubIcon from "./images/github.svg"
-import instagramIcon from "./images/instagram.svg"
+import githubIcon from "./images/github.svg";
+import instagramIcon from "./images/instagram.svg";
 
-//importing images 
-import illustrationPic from "./images/illustration_.png"
-import designPic from "./images/design.png"
-import photographyPic from "./images/photography_.png"
-import aboutMe from "./images/about_me.jpg"
-
+//importing images
+import illustrationPic from "./images/illustration_.png";
+import designPic from "./images/design.png";
+import photographyPic from "./images/photography_.png";
+import aboutMe from "./images/about_me.jpg";
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -35,8 +33,7 @@ export default {
     "and experience",
   ],
   //   Header Paragraph
-  headerParagraph:
-    "",
+  headerParagraph: "",
 
   //Contact Email
   contactEmail: "lisa.wu@utdallas.edu",
@@ -46,55 +43,46 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      id: 1, 
+      id: 1,
       title: "ILLUSTRATION", //Project Title - Add Your Project Title Here
-      para:
-        "A COMPILATION OF MY ILLUSTRATIONS AND INTAGLIO PRINTS", // Add Your Service Type Here
+      para: "A COMPILATION OF MY ILLUSTRATIONS AND INTAGLIO PRINTS", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        illustrationPic,
+      imageSrc: illustrationPic,
       //Project URL - Add Your Project Url Here
       url: "/illustration/",
     },
     {
-      id: 2, 
+      id: 2,
       title: "DESIGN", //Project Title - Add Your Project Title Here
-      para:
-        "A COMPILATION OF MY DESIGN PROJECTS", // Add Your Service Type Here
+      para: "A COMPILATION OF MY DESIGN PROJECTS", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        designPic,
+      imageSrc: designPic,
       //Project URL - Add Your Project Url Here
       url: "/design/",
     },
     {
-      id: 3, 
+      id: 3,
       title: "PHOTOGRAPHY", //Project Title - Add Your Project Title Here
-      para:
-        "AN IMAGE GALLERY", // Add Your Service Type Here
+      para: "AN IMAGE GALLERY", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        photographyPic,
+      imageSrc: photographyPic,
       //Project URL - Add Your Project Url Here
       url: "/photography/",
     },
-   
   ],
 
   // End Work Section -----------------------
 
   // About Secton --------------
   aboutParaOne:
-    "I'm Lisa! I am a sophomore studying Computer Science at the University of Texas at Dallas with a passion for illustration and design. I am currently based in Taiwan due to the pandemic.",
-  aboutParaTwo:
-    ["Other than my coding my day away, I also love to design and create illustration in my free time.",
-     " Recently, I have been learning about front-end development; this portfolio is my little learning project:)"
-     ]
-    ,
+    "I'm Lisa! I am a Junior studying Computer Science at the University of Texas at Dallas with a passion for illustration and design. I am currently based in Dallas, Texas",
+  aboutParaTwo: [
+    "Other than my coding my day away, I also love to design and create illustration in my free time.",
+    " Recently, I have been learning about front-end development; this portfolio is my little learning project:)",
+  ],
   aboutParaThree:
     "In the future, I hope to become a full-stack developer with a focus on UI/UX design!",
-  aboutImage:
-    aboutMe,
+  aboutImage: aboutMe,
   //   End About Section ---------------------
 
   // Skills Section ---------------
@@ -105,43 +93,36 @@ export default {
     {
       id: 1,
       img: javaIcon,
-      para:
-        "Three years of experience coding in Java 8. Proficient in Object-Oriented Programming.",
+      para: "Three years of experience coding in Java 8. Proficient in Object-Oriented Programming.",
     },
     {
       id: 2,
       img: cIcon,
-      para:
-        "Two years of experience coding in C++.",
+      para: "Two years of experience coding in C++.",
     },
     {
       id: 3,
       img: jsIcon,
-      para:
-        "One year of experience coding in JavaScript.",
+      para: "One year of experience coding in JavaScript.",
     },
     {
       id: 4,
       img: reactIcon,
-      para:
-        "Proficient understanding in web developement, including using the React framework.",
+      para: "Proficient understanding in web developement, including using the React framework.",
     },
     {
       id: 5,
       img: designIcon,
-      para:
-        "Four years of design and illustration experience. ",
+      para: "Four years of design and illustration experience. ",
     },
     {
       id: 6,
       img: codeIcon,
-      para:
-        "Also proficient in Python3.",
+      para: "Also proficient in Python3.",
     },
   ],
 
   // End Skills Section --------------------------
-
 
   //   Contact Section --------------
 
@@ -149,7 +130,7 @@ export default {
   social: [
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/litiwu" },
- 
+
     {
       img: instagramIcon,
       url: "https://www.instagram.com/lisaawu_",
@@ -157,6 +138,6 @@ export default {
   ],
 
   // End Contact Section ---------------
-}
+};
 
 // Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
