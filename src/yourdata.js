@@ -77,11 +77,11 @@ export default {
   aboutParaOne:
     "I'm Lisa! I am a Junior studying Computer Science at the University of Texas at Dallas with a passion for illustration and design. I am currently based in Dallas, Texas",
   aboutParaTwo: [
-    "Other than my coding my day away, I also love to design and create illustrations in my free time.",
+    "Other than coding my day away, I also love to design and create illustrations in my free time.",
     " Recently, I have been learning about front-end development; this portfolio is my little learning project:)",
   ],
   aboutParaThree:
-    "In the future, I hope to become a full-stack developer with a focus on UI/UX design!",
+    "In the future, I hope to become a Front-end Developer with a focus on UI/UX design!",
   aboutImage: aboutMe,
   //   End About Section ---------------------
 
